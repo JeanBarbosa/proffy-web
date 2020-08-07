@@ -1,11 +1,10 @@
 import React from 'react';
 import './assets/styles/global.css';
+import Landing from '../src/pages/Landing';
 
 const App: React.FC = () => {
   return (
-    <div className="App">
-      <h1>Next level</h1>
-    </div>
+    <Landing />
   );
 }
 
