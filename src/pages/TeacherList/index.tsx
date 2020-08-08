@@ -1,6 +1,7 @@
 import React from 'react';
 import './styles.css';
 import PageHeader from '../../components/PageHeader';
+import TeacherItem from '../../components/TeacherItem';
 
 const TeacherList: React.FC = () => {
   return (
@@ -33,8 +34,13 @@ const TeacherList: React.FC = () => {
           </div>
 
         </form>
-
       </PageHeader>
+
+      <main>
+        <TeacherItem />
+        <TeacherItem />
+        <TeacherItem />
+      </main>
     </div>
   );
 }
